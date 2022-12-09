@@ -20,10 +20,10 @@ double findYComponent(double i,double j,double k,double l){
 double pythagoras(double o,double p){
     return sqrt(pow(o,2)+pow(p,2));
 }
-void showResult(double q, double r){
+void showResult(double q, double z){
     cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
     cout << "Length of the resultant vector = " << q << "\n";
-    cout << "Direction of the resultant vector (deg) = " << r << endl;
+    cout << "Direction of the resultant vector (deg) = " << z << endl;
     cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%";
 }
 int main(){
